@@ -1,0 +1,67 @@
+button {
+  border: none;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+}
+
+/* Uber */
+.uber-button {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+
+/* Amazon */
+.amazon-button {
+  border-radius: 50rem;
+  background-color: rgb(255, 216, 20);
+  color: black;
+}
+
+/* GitHub */
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+}
+
+/* Bootstrap */
+.bootstrap-button1 {
+  background-color: rgb(121, 82, 179);
+  color: white;
+}
+
+.bootstrap-button2 {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border: 2px solid rgb(108, 117, 125);
+}
+
+/* LinkedIn */
+.linkedin-button1 {
+  border-radius: 50rem;
+  background-color: rgb(10, 102, 194);
+  color: white;
+}
+
+.linkedin-button2 {
+  border-radius: 50rem;
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: 2px solid rgb(10, 102, 194);
+}
+
+.Exercise-button1 {
+  border-radius: 50rem;
+  background-color: rgb(255, 216,20);
+  color: black
+}
+
+.Exercise-button2 {
+  border-radius: 50rem;
+  background-color: rgb(255, 164,28);
+  color: black
+}

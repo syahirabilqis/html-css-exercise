@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserraat', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+  width: fit-content;
+  border-radius: 8px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}

@@ -1,0 +1,222 @@
+body{
+  font-family: Arial, sans-serif;
+  color: #000;
+  padding: 40px;
+}
+
+button {
+  border: none;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: opacity 0.15s;
+  padding: 12px 15px;
+}
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.amazon-button {
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding: 7px 35px;
+}
+
+.amazon-button:hover {
+  background-color: rgb(245, 205, 3);
+}
+
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 6px;
+  transition: box-shadow 0.15s;
+  padding: 12px 17px;
+}
+
+.github-button:hover {
+  box-shadow: 0px 5px 8px rgba(0,0,0,0.15);
+}
+
+.bootstrap-button1 {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color0.15s;
+}
+
+.bootstrap-button1:hover {
+  background-color: rgb(99, 60, 156);
+}
+
+.bootstrap-button2 {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  border: 2px solid rgb(108, 117, 125);
+  padding: 12px 17px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor:pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.bootstrap-button2:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkedin-button1 {
+  border-radius: 20px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+.linkedin-button1:hover {
+  background-color: rgb(2, 70, 138);
+}
+
+.linkedin-button2 {
+  border-radius: 30px;
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s, padding 0.15,
+}
+
+.linkedin-button2:hover {
+  background-color: rgb(226, 240, 254);
+  border-width: 2px;
+  padding: 11px 23px;
+}
+
+.tweet-button {
+  border-radius: 18px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align:top;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.youtube-button {
+  background-color: rgb(204,0,0);
+  color: white;
+  border: none;
+  border-radius:2px;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  transition: opacity 0.15s;
+  vertical-align:top;
+}
+
+.join-button{
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.back-button {
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 18px;
+}
+.search-result {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+.next-button {
+  margin-left: 8px;
+  padding: 8px;
+  font-size: 16px
+}
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 9px 15px;
+  cursor: pointer;
+  transition: padding 1s;
+}
+.stretch-button:hover {
+  padding: 18px 36px;
+}
+
+.shadow-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+.shadow-button:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+.strettch-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  margin-left:10px;
+  margin-right: 10px;
+  transition: padding 0.15s, margin 0.15s;
+}
+.strettch-button:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

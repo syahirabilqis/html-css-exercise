@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  color: black;
+  padding-top: 30px;
+}
+.image-box {
+  display: inline-block;
+  margin: 20px;
+}
+img {
+  display: block;
+}
+
+.rounded {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+}
+.centered {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.rounded-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.shadow-box {
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 0 5px black;
+}
+
+.linkedin-box {
+  background-color: white;
+  color: black;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.linkedin-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.linkedin-box .privacy-text {
+  font-size: 12px;
+  color: black;
+}
+
+.linkedin-button {
+  background-color:blue;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.twitter-box {
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.twitter-box img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.twitter-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.twitter-box button {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+}

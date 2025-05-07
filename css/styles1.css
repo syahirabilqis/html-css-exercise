@@ -1,0 +1,28 @@
+button {
+  margin: 5px;
+  cursor: pointer;
+  width: 90px;
+  height: 20px;
+}
+
+a {
+  display: block;
+  margin: 5px 0;
+  color: blue;
+}
+
+.back-link {
+  color: rgb(0, 113, 133);
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
