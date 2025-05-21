@@ -1,0 +1,124 @@
+.boxes {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.paragraph {
+  align-items: center;
+  display: flex;
+}
+
+.textt {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 300px;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.shadow-box {
+  width: 400px;
+  border: none;
+  padding: 5px;
+  border-radius: 25px;
+  box-shadow: 0 0 3px black;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin: 30px;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-half {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input-full {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #155ac4;
+}
+
+.ride-form {
+  width: 350px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.ride-form input {
+  width: 100%; 
+  box-sizing: border-box; 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #eee;
+}
+
+.ride-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.ride-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.now {
+  background-color: black;
+  color: white;
+}
+
+.later {
+  background-color: #eee;
+  color: black;
+}
